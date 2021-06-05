@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style type="text/css">
+		input{
+			width: 100%;
+			background-color: #2a2e4b;
+			color: white;
+			padding : 0px;
+			border : 0px;
+			border-radius: 20%;
+		}
+		#t{
+			width: auto;
+			height: 30px;
+			background-color: white;
+			color: black;
+			border-radius: 0%;
+
+
+		}
+	
+		#equal{
+			background-color: yellowgreen;
+		}
+		#cl{
+			background-color: darkorange;
+			border-radius: 5%;
+		}
+		#op{
+			background-color: red;
+		}
+		tr th{
+			color: white;
+			font-size: 10px 
+		}
+
+	</style>
+	<script type="text/javascript">
+		function display(x)
+		{
+			document.getElementById("t").value+=x
+		}
+		function compute()
+		{
+			var x=document.getElementById("t").value
+			document.getElementById("t").value = eval(x)
+
+		}
+	</script>
+</head>
+<body>
+	<form>
+	<table align = "center" cellspacing="3"  bgcolor= "#3a4655" >
+		<caption>Thangam Paul Alex - 1CR18CS172</caption>
+		<tr><th colspan="4">CALCULATOR</th></tr>
+		<tr><td colspan="4"><input type = "text" id = "t"></td></tr>
+		<tr>
+			<td><input type="button" value="7" onclick="display(this.value)"></td>
+			<td><input type="button" value="8" onclick="display(this.value)"></td>
+			<td><input type="button" value="9" onclick="display(this.value)"></td>
+			<td><input type="button" value="+" id ="op" onclick="display(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onclick="display(this.value)"></td>
+			<td><input type="button" value="5" onclick="display(this.value)"></td>
+			<td><input type="button" value="6" onclick="display(this.value)"></td>
+			<td><input type="button" value="-" id ="op" onclick="display(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onclick="display(this.value)"></td>
+			<td><input type="button" value="2" onclick="display(this.value)"></td>
+			<td><input type="button" value="3" onclick="display(this.value)"></td>
+			<td><input type="button" value="*" id ="op" onclick="display(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="0" onclick="display(this.value)"></td>
+			<td><input type="button" value="." onclick="display(this.value)"></td>
+			<td><input type="button" value="=" id = "equal" onclick="compute()"></td>
+			<td><input type="button" value="/" id ="op" onclick="display(this.value)"></td>
+		</tr>
+		<tr>
+			<td colspan="4"><input type="reset" value="CLEAR" id = "cl"></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

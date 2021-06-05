@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "ASCII"?>
+<?xml-stylesheet type="text/css" href="studentdata.css"?>
+
+<studentlist>
+	<student1>
+		<usn>1CR18CS172</usn>
+		<name>Thangam Paul Alex</name>
+		<college>CMR Institute Technology</college>
+		<branch>CSE</branch>
+		<email>thpa18cs@cmrit.ac.in</email>
+		<yearofjoining>2018</yearofjoining>
+	</student1>
+	<student2>
+		<usn>1CR18CS053</usn>
+		<name>Deepak Vellanki</name>
+		<college>CMR Institute Technology</college>
+		<branch>CSE</branch>
+		<email>deve18cs@cmrit.ac.in</email>
+		<yearofjoining>2018</yearofjoining>
+	</student2>
+	<student3>
+		<usn>1CR18IS165</usn>
+		<name>V Abhishek Kumar</name>
+		<college>CMR Institute Technology</college>
+		<branch>ISE</branch>
+		<email>vaku18is@cmrit.ac.in</email>
+		<yearofjoining>2018</yearofjoining>
+	</student3>
+</studentlist>
