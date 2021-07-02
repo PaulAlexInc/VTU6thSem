@@ -11,10 +11,10 @@ calculatorhaving basic functionality like Addition, Subtraction, Multiplication,
 
 3) Create a SIGN Up activity with Username and Password. Validation of password should happen 
 based on the following rules: 
-<ul> Password should contain uppercase and lowercase letters.
-<ul> Password should contain letters and numbers.
-<ul> Password should contain special characters.
-<ul> Minimum length of the password (the default value is 8).
+<ul> Password should contain uppercase and lowercase letters.</ul>
+<ul> Password should contain letters and numbers.</ul>
+<ul> Password should contain special characters.</ul>
+<ul> Minimum length of the password (the default value is 8).</ul>
 
  On successful SIGN UP proceed to the next Login activity. Here the user should SIGN IN using 
 the Username and Password created during signup activity. If the Username and Password are 
