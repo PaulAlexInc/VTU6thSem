@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>leftmost vowel</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var cmr=prompt("Enter the string")
+        cmr=cmr.toUpperCase()
+        document.write("The given string is: "+cmr+"<br>")
+        var n=cmr.length
+        for(i=0;i<n;i++)
+        {
+            ch = cmr.charAt(i)
+            if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+                break;
+        }
+        if(i<n)
+            document.write("The leftmost vowel is found in the position: "+(i+1))
+        else
+            document.write("Vowel not found")
+    </script>
+</body>
+</html>

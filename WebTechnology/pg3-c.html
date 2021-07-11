@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program-3</title>
+</head>
+<body>
+    <p id="tex"></p>
+    <script type="text/javascript">
+        var t = document.getElementById("tex")
+        var f=5
+        var a = setInterval(Incre,1000)//calls function Incre for every 100ms
+        function Incre()
+        {
+            t.innerHTML="TEXT-GROWING"
+            f+=5
+            t.setAttribute("style","color:red;font-size:"+f+"px")
+            if(f==50)
+            {
+                clearInterval(a)
+                b=setInterval(Decre,1000)
+            }
+        }    
+        function Decre()
+        {
+            f-=5
+            t.innerHTML="TEXT SHRINKING"
+            t.setAttribute("style","color:blue;font-size:"+f+"px")
+            if(f==5)
+            {
+                clearInterval(b)
+            }
+        }
+    </script>
+</body>
+</html>
