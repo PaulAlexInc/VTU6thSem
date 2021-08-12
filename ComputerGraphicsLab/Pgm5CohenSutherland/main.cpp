@@ -93,7 +93,7 @@ void display()
         //xa=170; ya = 70; xb=190; yb= 130; // completely outside(same region)
         //xa = 60; ya = 120; xb=100, yb=180; // one in one out
        //xa = 30; ya = 100; xb= 80; yb = 30; //both out different region,intersecting window
-        //xa= 30; ya = 60; xb = 70; yb=30; // completely outside, different region
+        //xa= 130; ya = 30; xb = 180; yb=70; // completely outside, different region
 
     //before Clipping - Window
     glColor3f(0,0,0);
